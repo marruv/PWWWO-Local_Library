@@ -1,14 +1,14 @@
 var createError = require('http-errors');
 var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+var path = require('path'); 
+var cookieParser = require('cookie-parser'); // Method for accessing cookie information
+var logger = require('morgan'); // HTTP request logger middleware for node
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog');
-var compression = require('compression');
-var helmet = require('helmet');
+var compression = require('compression'); // Compression middleware for responses
+var helmet = require('helmet'); // Sets HTTP response headers
 
 var app = express();
 
