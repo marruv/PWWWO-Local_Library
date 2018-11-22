@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Source+Sans+Pro');
+
+body {
+  background-color: #E8EEDD;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #303625;
+}
+
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+a {
+  color: #478F5C;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #FDA706;
+  text-decoration: none;
+}
+
 .sidebar-nav {
   margin-top: 20px;
   padding: 0;
